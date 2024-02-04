@@ -1,6 +1,7 @@
 import {Login} from './components/login/login'
 import {Nav} from './components/nav/nav'
 import {Register} from './components/register/register'
+import {Rout} from './components/dashboard/rout'
 import {BrowserRouter} from 'react-router-dom'
 import './App.css'
 
@@ -9,7 +10,8 @@ function App() {
     <>
     <BrowserRouter>
     {/* <Register></Register> */}
-    <Nav></Nav>
+    <Nav/>
+    <Rout/>  
     </BrowserRouter>
     </>
   )

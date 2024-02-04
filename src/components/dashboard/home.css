@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.home{
+    width: 100%;
+}
+
+.home .top_banner{
+    max-width: 100%;
+    background-image: url(http://localhost:5173/image/slide-1.webp);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
